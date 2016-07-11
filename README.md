@@ -1,3 +1,8 @@
 # JQueryPractice
 
-chaining        --chaining技术允许我们在一条语句中在相同的元素上运行多条jQuery语句
+
+
+$(selector).text()              --获取或设置selector的文本内容
+$(selector).html()              --获取或设置selector的内容(包括html标记)
+$(selector).val()               --获取或设置表单字段的值
+$(selector).attr()              --获取属性值
