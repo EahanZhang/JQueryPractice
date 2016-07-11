@@ -1,12 +1,30 @@
 <html>
   <head>
     <script type="text/javascript" src="./jquery-3.0.0.js"></script>
-    <script type="text/javascript" src="./hide_show.js"></script>
+    <script type="text/javascript" src="./sildeInAndOut.js"></script>
+
+    <style type="text/css">
+      div.panel,p.flip
+      {
+          margin: 0px;
+          padding: 5px;
+          text-align: center;
+          background: #e5eecc;
+          border: solid 1px #c3c3c3;
+      }
+      div.panel
+      {
+          height: 120px;
+          display: none;
+      }
+    </style>
   </head>
 
   <body>
-    <p id="p1">Click hide button, I will disappear.</p>
-    <button id="hide" type="button">hide</button>
-    <button id="show" type="button">show</button>
+    <div class="panel">
+        <p>This program is edit by EahanZhang.</p>
+    </div>
+    
+    <p class="flip">Click here.</p>
   </body>
 </html>
