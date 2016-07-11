@@ -1,7 +1,7 @@
 # JQueryPractice
 
-$(selector).animate({params}, speed, callback);
+$(selector).stop(stopAll, goToEnd);
 
-{params} --定义形成动画的CSS属性
-speed    --规定效果的时长
-callback --动画完成后所执行的函数名称
+stopAll         --是否应该清除动画队列，默认值false.
+goToEnd         --是否立即完成当前动画，默认值false.
+
