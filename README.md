@@ -1,4 +1,3 @@
 # JQueryPractice
 
-callback()          --一个在操作完成后调用的函数,避免发生冲突
-
+chaining        --chaining技术允许我们在一条语句中在相同的元素上运行多条jQuery语句
