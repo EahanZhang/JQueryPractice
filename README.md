@@ -22,3 +22,13 @@ empty()不接受任何参数.
 addClass()          --向被选元素添加一个或多个类
 removeClass()       --向被选元素删除一个或多个类
 toggleClass()       --向被选元素添加/删除类的切换
+
+
+css()方法
+css("propertyname");
+                    --返回首个匹配元素的propertyname的值
+css("propertyname", value)
+                    --设置指定元素的propertyname的属性 
+
+css可同时设置多个CSS属性
+css("propertyname":"value", "propertyname":"value", ...)
