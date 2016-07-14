@@ -1,22 +1,21 @@
 <html>
   <head>
     <script type="text/javascript" src="./jquery-3.0.0.js"></script>
-    <script type="text/javascript" src="./append_prepend.js"></script>
+    <script type="text/javascript" src="./remove_empty.js"></script>
 
   </head>
 
   <body>
+  <div id="div1" style="height:100px;
+                        weight:200px;
+                        border:1px solid black;
+                        background-color:yellow;">
+
     <p>This is a paragraph.</p>
-    <ol>
-      <li>List item1.</li>
-      <li>List item2.</li>
-      <li>List item3.</li>
-    </ol>
-    <button id="btn_appendText">apdText</button>
-    <button id="btn_appendItem">apdItem</button>
-    <button id="btn_appendElement">apdElem</button>
-    <button id="btn_prependText">predText</button>
-    <button id="btn_prependItem">predItem</button>
-    <button id="btn_prependElement">predElem</button>
+    <p class="italic">This is another paragraph.</p>
+    <p class="italic">This is different paragraph.</p>
+  </div>
+    <button id="btn1">remove</button>
+    <button id="btn2">empty</button>
   </body>
 </html>
