@@ -16,3 +16,9 @@ remove()可以接受一个参数，可以对被删元素进行过滤:
 $("#div").remove(".italic");
 
 empty()不接受任何参数.
+
+
+获取并设置CSS类
+addClass()          --向被选元素添加一个或多个类
+removeClass()       --向被选元素删除一个或多个类
+toggleClass()       --向被选元素添加/删除类的切换
